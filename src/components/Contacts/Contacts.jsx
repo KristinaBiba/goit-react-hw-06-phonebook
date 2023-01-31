@@ -1,7 +1,7 @@
 import { Li, Ul, P, Button } from './Contacts_css';
 import { useSelector, useDispatch } from 'react-redux';
-import { getContacts } from "../../redux/selectors";
-import { deleteContact } from '../../redux/contactsSlice';
+import { getContacts } from "redux/selectors";
+import { deleteContact } from 'redux/contactsSlice';
 
 export const Contacts = () => {
 
