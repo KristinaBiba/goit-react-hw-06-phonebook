@@ -9,7 +9,6 @@ export const Filter = () => {
     const dispatch = useDispatch();
     
     const handleFilter = (e) => {
-        console.log(e.target);
     const { value } = e.target;
     dispatch(changeFilter(value));
     }

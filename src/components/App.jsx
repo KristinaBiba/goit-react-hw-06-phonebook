@@ -5,13 +5,6 @@ import { Filter } from './Filter/Filter';
 
 export function App () {
 
-  // const toFiltredContacts = () => {
-  //   const normalizeFilter = filter.toLowerCase();
-  //   return (contacts.filter(contact => contact.name.toLowerCase().includes(normalizeFilter)));
-  // }
-  
-  // const filtredContacts = toFiltredContacts();
-    // onSubmit={handleFormSubmit}
     return (
       <>
         <Section title="Phonebook">
